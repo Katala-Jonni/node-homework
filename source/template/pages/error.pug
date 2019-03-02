@@ -1,0 +1,19 @@
+extends ../_template
+
+block content
+    header.header
+        .container.header__container
+            .header__top
+                a(href="/").title-name Архипов
+                    span.title-name__doter .
+                .header__social
+                    ul.social
+                        each item in social
+                            li.social__item
+                                a.social__link(href="http://")
+                                    i(class=`fab ${item}`)
+            .life__container
+                h1.life__slogan= message
+                h2.life__slogan= error.status
+
+
