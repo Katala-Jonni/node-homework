@@ -4,6 +4,6 @@
 
 npm start
 
-email: admin@amin.ru
+email: admin@admin.ru
 
 password: 123
